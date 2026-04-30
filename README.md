@@ -49,34 +49,43 @@ Here is a high-level representation of a typical RAG workflow covered in this re
 The repository is organized progressively, starting from basic RAG concepts and scaling up to complex, multi-agent frameworks:
 
 ### 📥 1. Data Ingestion & Parsing (`DataIngestParsing/`)
+
 - PDF, Word Doc, CSV, Excel, and JSON parsing.
 - Connecting to external databases and structured file ingestion.
 
 ### 🧠 2. Embeddings & Vector Databases (`Embedding_and_vector_database/` & `Vector_Stores/`)
+
 - Creating text embeddings and calculating similarity.
 - Hands-on integration with **ChromaDB**, **FAISS**, **Pinecone**, and **DataStax AstraDB**.
 
 ### 🔍 3. Advanced Search Techniques (`SemanticSearch/` & `HybridSearchTechniques/`)
+
 - Semantic Chunking.
 - Dense & Sparse Retrieval, Hybrid Search, Reranking techniques, and Maximal Marginal Relevance (MMR).
 
 ### 🛠 4. Query Enhancements (`10_QuerryEnhancement/`)
+
 - Query Expansion, Query Decomposition, and **HyDE** (Hypothetical Document Embeddings).
 
 ### 🖼️ 5. Multimodal RAG (`11_MultimodalRag/`)
+
 - Implementing RAG over mixed media (Text + Images) using modern multimodal models.
 
 ### 🤖 6. AI Agents & LangChain Ecosystem (`12_AiAgents_n_AgenticAI/` & `13_Langchain_updated/`)
+
 - Model integrations, Tool usage, Structured Outputs, and Route/Middleware handling in LangChain.
 
 ### 🕸️ 7. LangGraph Workflows (`14_Langgraph/`)
+
 - Building stateful multi-actor applications, simple graphs, advanced chatbots with multiple tools, and managing State Schema using Pydantic.
 
 ### 🎭 8. Agent Patterns & Debugging (`15_Types_of_Agents/`)
+
 - Exploring the **ReAct** (Reasoning + Acting) framework, streaming responses, and debugging agent traces.
 - Using Python scripts directly alongside notebooks for pure code-based agentic workflows (`Debugging/agent.py`).
 
 ### 🚀 9. Agentic RAG (`16-AgenticRag/`)
+
 - Combining agents with RAG pipelines.
 - Building **Multi-Database RAG** systems where an agent dynamically routes queries to the best vector index.
 - Complete execution of self-correcting RAG loops that query, verify context, and either regenerate responses or gather more data.
@@ -135,6 +144,7 @@ jupyter lab
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
 - If you notice a broken notebook, feel free to open a Pull Request.
 - Avoid committing large files like `chroma_db/`, `faiss_index/`, `.pdf`, or `__pycache__` folders. They are in the `.gitignore`.
 
