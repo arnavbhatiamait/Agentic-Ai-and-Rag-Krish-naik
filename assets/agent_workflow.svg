@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300">
+  <style>text{font-family:Segoe UI, Arial; font-size:12px; fill:#0f172a;}</style>
+  <rect width="100%" height="100%" fill="#fefefe" rx="8"/>
+  
+  <rect x="50" y="110" width="120" height="60" rx="8" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="75" y="145" font-weight="bold">User Query</text>
+  
+  <rect x="250" y="80" width="150" height="120" rx="8" fill="#f0fdf4" stroke="#059669" stroke-width="2" stroke-dasharray="4"/>
+  <text x="290" y="100" font-weight="bold">ReAct Agent</text>
+  <text x="270" y="130">1. Thought (Plan)</text>
+  <text x="270" y="155">2. Action (Tool)</text>
+  <text x="270" y="180">3. Observation</text>
+  
+  <rect x="500" y="40" width="140" height="50" rx="8" fill="#fdf4ff" stroke="#d946ef" stroke-width="2"/>
+  <text x="515" y="70">Vector Tool (DB 1)</text>
+
+  <rect x="500" y="115" width="140" height="50" rx="8" fill="#fdf4ff" stroke="#d946ef" stroke-width="2"/>
+  <text x="515" y="145">Vector Tool (DB 2)</text>
+
+  <rect x="500" y="190" width="140" height="50" rx="8" fill="#fdf4ff" stroke="#d946ef" stroke-width="2"/>
+  <text x="515" y="220">Web Search Tool</text>
+  
+  <path d="M170 140 L245 140" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <path d="M400 100 L495 65" stroke="#0ea5e9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M400 140 L495 140" stroke="#0ea5e9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M400 180 L495 215" stroke="#0ea5e9" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  
+  <path d="M495 75 L400 110" stroke="#059669" stroke-width="2" stroke-dasharray="2" marker-end="url(#arrow-green)"/>
+  <path d="M495 150 L400 150" stroke="#059669" stroke-width="2" stroke-dasharray="2" marker-end="url(#arrow-green)"/>
+  <path d="M495 225 L400 190" stroke="#059669" stroke-width="2" stroke-dasharray="2" marker-end="url(#arrow-green)"/>
+  
+  <path d="M325 200 L325 255" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <rect x="250" y="260" width="150" height="40" rx="8" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="270" y="285" font-weight="bold">Final Response</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0f172a"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0ea5e9"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#059669"/>
+    </marker>
+  </defs>
+</svg>

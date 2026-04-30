@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260">
+  <style>text{font-family:Segoe UI, Arial; font-size:12px}</style>
+  <rect x="34" y="40" width="200" height="80" rx="8" fill="#f8fafc" stroke="#0f172a"/>
+  <text x="50" y="70">Data Ingest</text>
+  <rect x="280" y="40" width="200" height="80" rx="8" fill="#f8fafc" stroke="#0f172a"/>
+  <text x="300" y="70">Embeddings</text>
+  <rect x="526" y="40" width="200" height="80" rx="8" fill="#f8fafc" stroke="#0f172a"/>
+  <text x="540" y="70">Vector Store</text>
+  <path d="M234 80 L280 80" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+  <path d="M480 80 L526 80" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <rect x="280" y="150" width="200" height="70" rx="8" fill="#fff" stroke="#0f172a"/>
+  <text x="300" y="180">Retriever / Reranker</text>
+  <path d="M380 120 L380 150" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="526" y="150" width="200" height="70" rx="8" fill="#fff" stroke="#0f172a"/>
+  <text x="540" y="180">LLM + Prompting</text>
+  <path d="M480 185 L526 185" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

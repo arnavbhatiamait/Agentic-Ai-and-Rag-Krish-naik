@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" rx="8"/>
+  <text x="48" y="60" font-family="Segoe UI, Arial" font-size="28" fill="#fff">RAG — Udemy Course Project</text>
+  <text x="48" y="100" font-family="Segoe UI, Arial" font-size="14" fill="#e6f7fb">Notebooks, examples and resources for Retrieval-Augmented Generation workflows</text>
+  <rect x="720" y="36" width="200" height="44" rx="6" fill="#fff" opacity="0.12"/>
+  <text x="732" y="64" font-family="Segoe UI, Arial" font-size="12" fill="#fff">Course exercises</text>
+</svg>
